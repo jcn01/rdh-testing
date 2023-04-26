@@ -39,7 +39,7 @@ func main() {
 	// fmt.Println("customerAcc", customerAcc1.Address.Address, customerAcc1.PublicAccount.PublicKey, customerAcc1.PrivateKey)
 	// fmt.Println("customerAccRemote", customerAccRemote1.Address.Address, customerAccRemote1.PublicAccount.PublicKey, customerAccRemote1.PrivateKey)
 	// fmt.Println("customerAccVrf", customerAccVrf1.Address.Address, customerAccVrf1.PublicAccount.PublicKey, customerAccVrf1.PrivateKey)
-	
+
 	// customerAcc2, _ := client.NewAccountFromVersion(2)
 	// customerAccRemote2, _ := client.NewAccountFromVersion(2)
 	// customerAccVrf2, _ := client.NewAccountFromVersion(2)
@@ -61,6 +61,11 @@ func main() {
 	// fmt.Println("customerAccRemote", customerAccRemote4.Address.Address, customerAccRemote4.PublicAccount.PublicKey, customerAccRemote4.PrivateKey)
 	// fmt.Println("customerAccVrf", customerAccVrf4.Address.Address, customerAccVrf4.PublicAccount.PublicKey, customerAccVrf4.PrivateKey)
 
+	// Sha3 accounts
+	// customerAccV1, _ := client.NewAccountFromPrivateKeyAndVersion("2f0a9b118d4aceb6d270f17ccd8ffcf6541c4f0eea6602d52c0f408ef5705664", 1)
+	// customerAccRemoteV1, _ := client.NewAccountFromPrivateKeyAndVersion("f104dcd92700e99d7a58ee9e1184dd7f28253b66cd16b4f4bc05e9de017fb3db", 1)
+	// customerAccVrfV1, _ := client.NewAccountFromPrivateKeyAndVersion("c7957b534df48bbda05ff8a7dfcc8847bef715ee88a99cb3325262b545039efa", 1)
+	// customerAccVrfV2WithTransfer, _ := client.NewAccountFromPrivateKeyAndVersion("a26442bb9dec2449db8b8a15cfca00677ff88f98795a65281671a340c17b8259", 2)
 
 	// fmt.Println("======1st======")
 	customerAcc1, _ := client.NewAccountFromPrivateKeyAndVersion("de8cb81cc7b23efe98891a255f06e3cd8a8de609a79a019aae31be7cdef498fa", 2)
